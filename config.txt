@@ -1,0 +1,6 @@
+#百度翻译API的应用ID和密钥：
+app_id=
+secret_key=
+
+#图片文件地址：注意是反斜杠
+imagePath=pic/background-image/105771494_p0_master1200.png

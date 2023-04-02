@@ -1,0 +1,94 @@
+QMainWindow{
+    width: 783px;
+    height: 389px;
+    opacity: 1;
+    border-radius: 20px;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-image:@impage_path;
+    border: 0px rgba(206, 184, 184, 1);            
+    
+
+}
+
+#label_3{
+    color:rgba(255, 255, 255, 0.6);
+    letter-spacing:4px;
+    font-size:20px;
+    font-weight:bold;
+    
+}
+
+#frame {
+border: 8px solid rgba(255, 255, 255, 1);
+}
+
+#plainTextEdit {
+    background-color:rgba(255,255,255,0.8);
+    border-radius: 20px;
+}
+#textEdit{
+    background-color:rgba(255,255,255,0.8);
+    border-radius: 20px;
+}
+
+QComboBox {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 1px 18px 1px 3px;
+    min-width: 6em;
+    background-color: white;
+    selection-background-color: lightgray;
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 20px;
+    border-left-width: 1px;
+    border-left-color: gray;
+    border-left-style: solid;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 white, stop:0 gainsboro);
+}
+
+QComboBox::down-arrow {
+    image: url("pic/xiala.png");
+}
+
+QPushButton {
+    background-color: #4CAF50;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+QPushButton:hover {
+    background-color: #3E8E41;
+}
+
+QPushButton:pressed {
+    background-color: #2F6E30;
+}
+
+#label{
+    font-family: Arial;
+    font-size: 18px;
+    color: #fff;
+    background-color: #0077be;
+    border-radius: 10px;
+    padding: 10px;
+}
+#label_2{
+    font-family: Arial;
+    font-size: 18px;
+    color: #fff;
+    background-color: #0077be;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
